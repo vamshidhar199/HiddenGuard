@@ -1,0 +1,17 @@
+# Default thresholds and knobs
+model:
+  clip_name: "ViT-B-32"
+  clip_pretrained: "openai"
+wsd:
+  wavelet: "db8"
+  levels: 2
+  kurtosis_z_thresh: 2.5
+  glcm_contrast_z_thresh: 2.0
+cmca:
+  similarity_low_thresh: 0.18   # cosine similarity ~ [0,1]
+  similarity_high_bypass: 0.37  # bypass WSD if >= this
+cata:
+  suspicious_score: 0.5
+  critical_score: 0.75
+runtime:
+  device: "auto"  # "cuda", "cpu", "auto"

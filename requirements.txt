@@ -1,0 +1,18 @@
+# Core
+torch
+torchvision
+numpy
+pillow
+opencv-python
+pywavelets
+scikit-image
+
+# CLIP
+open_clip_torch
+
+# API & config
+fastapi
+uvicorn
+pydantic
+pyyaml
+rich
