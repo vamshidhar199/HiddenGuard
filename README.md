@@ -60,5 +60,4 @@ tests/
 - The **sample images** are tiny toy examples for demonstration; use your own data or the scripts in `src/hidden_guard/eval` to generate more.
 - For larger experiments, connect public benchmarks (e.g., JailBreakZoo, MM-SafetyBench) using your own credentials and storage.
 
-## License
-MIT
+
